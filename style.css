@@ -11,18 +11,19 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
+  background:#68a6ca;
 }
 
 .clock{
   height:20em;
   aspect-ratio:1;
-  border:1px solid blue;
   border-radius:50%; 
   position:relative;
   overflow:hidden;
 }
 .container{
-  border:1px solid blue;
+  border:10px solid gold;
+  box-shadow:0 0 10px 5px #00ff00;
   border-radius:50%;
 }
 .pic{
@@ -33,7 +34,7 @@ body{
   object-fit:cover;
 }
 .h-hand{
-  background:red;
+  background:#2d25a0;
   height:1%;
   width:35%;
   position:absolute;
@@ -45,7 +46,7 @@ body{
 /*   -90deg */
 }
 .m-hand{
-  background:red;
+  background:#2d25a0;
   height:1%;
   width:45%;
   position:absolute;

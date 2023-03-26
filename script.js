@@ -1,6 +1,7 @@
 let secondhand=document.querySelector(".s-hand");
 let minutehand=document.querySelector(".m-hand");
 let hourhand=document.querySelector(".h-hand");
+let pic=document.querySelector(".pic");
 let time,sec,min,hr,secdegree,mindegree,hrdegree;
 function GetTime()
 {
